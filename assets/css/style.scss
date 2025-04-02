@@ -61,20 +61,17 @@ body.dark-mode::-webkit-scrollbar-track {
 }
 
 /* Style the theme toggle button */
-.theme-toggle-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  z-index: 1000;
+#theme-toggle {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1e90ff;  /* Blue background */
+    color: white;  /* White text */
+    border: none;  /* Remove border */
+    border-radius: 5px;  /* Rounded corners */
+    transition: background-color 0.3s ease;  /* Smooth background color transition */
 }
 
-.theme-toggle-btn:hover {
-  background-color: #444;
+#theme-toggle:hover {
+    background-color: #005bb5;  /* Darker blue when hovered */
 }
