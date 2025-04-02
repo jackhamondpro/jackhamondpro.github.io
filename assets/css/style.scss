@@ -1,0 +1,62 @@
+---
+---
+
+@import "{{ site.theme }}"; /* Import the base theme's styles */
+
+/* Dark theme customization */
+
+/* Background */
+body {
+  background-color: #121212;  /* Dark background */
+  color: #e0e0e0;  /* Light text for contrast */
+}
+
+/* Links */
+a {
+  color: #1e90ff;  /* Lighter blue links */
+}
+
+a:hover {
+  color: #ff6347;  /* Change link color on hover */
+}
+
+/* Header */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;  /* White headers */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;  /* Dark navbar */
+}
+
+.navbar a {
+  color: #fff;  /* White text for navbar links */
+}
+
+.navbar a:hover {
+  color: #ff6347;  /* Change navbar link color on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #222;  /* Dark footer */
+  color: #bbb;  /* Lighter footer text */
+}
+
+/* Custom scroll bar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+}
