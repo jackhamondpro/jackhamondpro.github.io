@@ -28,4 +28,6 @@ Check out some of the projects I've worked on:
 
 ---
 
+This is a test
+
 &copy; 2025 Jack Hamond | Civil Engineering Portfolio
