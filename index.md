@@ -17,21 +17,6 @@ Hello, I'm Jack Hamond, an Engineering Technician with a strong interest in codi
 * Automation with WSL2 & Linux commands
 * Web Development (HTML, CSS, JavaScript)
 * ...
-* Technical Skills
-  * CAD Software Proficiency
-* Mathematics and Analytical Skills
-  * Strong Math Skills
-  * Problem-Solving Abilities
-* Communication Skills
-  * Written Communication
-  * Verbal Communication
-* Attention to Detail
-  * Precision: Ensuring that measurements, designs, and reports are accurate, as small errors can lead to significant issues in construction projects.
-  * Quality Control
-* Project Management
-  * Time Management (work in MN and ND)
-  * Resource Coordination
-* Knowledge of Codes and Regulations
 
 ## [Projects](/projects/)
 
