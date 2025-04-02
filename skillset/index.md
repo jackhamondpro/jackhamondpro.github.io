@@ -1,3 +1,8 @@
+---
+title: "Professional Qualities, Skills and Tools, and Certifications"
+permalink: /skillset/
+---
+
 # Professional Qualities, Skills and Tools, and Certifications
 
 ## Professional Qualities
