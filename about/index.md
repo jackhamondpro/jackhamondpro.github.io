@@ -1,4 +1,37 @@
-# Frequently Asked Questions
+---
+layout: page
+title: "About Me"
+permalink: /about/
+---
+
+# About Me
+
+Hello, I'm **Jack Hamond**, a passionate Civil Engineer and tech enthusiast. 
+
+I use my expertise in civil engineering combined with programming and automation tools to design smarter, more efficient projects. From leveraging advanced structural design to automating construction processes with WSL2 and Linux, I enjoy pushing the boundaries of what's possible with technology in the built environment.
+
+This site serves as a portfolio of my work, showcasing a blend of engineering projects and software development skills.
+
+## Background
+
+I hold a degree in **Civil Engineering** and have extensive experience in:
+
+- **Structural Design** (Designing bridges, buildings, and more)
+- **Geotechnical Engineering** (Soil mechanics and foundation analysis)
+- **Automation with WSL2 & Linux** (Optimizing workflows and processes)
+- **Software Development** (Building tools and automating tasks)
+
+When I’m not engineering, you’ll find me coding, learning new technologies, or exploring new automation techniques to improve the efficiency of construction projects.
+
+## Contact
+
+Feel free to reach out to me if you'd like to discuss projects, collaborations, or just have a conversation about engineering and technology.
+
+- Email: [jackhamond@engineer.com](mailto:jackhamond@engineer.com)
+
+---
+
+## Frequently Asked Questions
 
 ### 1. **What motivated you to pursue Civil Engineering?**
    **Answer**:
