@@ -2,8 +2,7 @@ title: "Jack Hamond | Civil Engineer"
 description: "A portfolio showcasing my engineering projects and coding skills."
 url: "https://jackhamondpro.github.io"
 baseurl: ""
-# logo: "/assets/images/logo.png"
-theme: "minimal-mistakes"
-remote_theme: "mmistakes/minimal-mistakes"
+logo: "/assets/images/logo.png"
+remote_theme: "pages-themes/minimal@v0.2.0"
 plugins:
-  - jekyll-seo-tag
+  - jekyll-remote-theme
