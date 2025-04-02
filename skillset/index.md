@@ -10,8 +10,7 @@ permalink: /skillset/
 Throughout my time as an Engineering Technician I have developed many professional qualities on the job. These skills include:
 
 1. Technical Skills:
-  * CAD Software Proficiency: I am proficient in Microstation and ORD
-    * I have experience in ArcGIS
+  * CAD Software Proficiency: I am proficient in Microstation and ORD (I have experience in ArcGIS)
 1. Mathematics and Analytical Skills:
   * Strong Math Skills: Knowledge of algebra, geometry, and basic trigonometry for measuring, calculating loads, and analyzing structures
   * Problem-Solving Abilities: Ability to analyze issues that arise on-site and come up with practical solutions
