@@ -13,3 +13,11 @@ sass:
 # Include custom styles in the head
 include:
   - "_assets/css/style.scss"
+
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "About Me"
+    link: "/about/"
+  - name: "Projects"
+    link: "/projects/"
