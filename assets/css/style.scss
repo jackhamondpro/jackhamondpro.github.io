@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}"; /* Import the base theme's styles */
 
+body {
+  overflow-x: hidden; /* Prevent any horizontal scroll shift */
+}
+
+
 /* Dark mode customization */
 
 body.dark-mode {
@@ -43,17 +48,21 @@ body.dark-mode footer {
   color: #bbb;  /* Lighter footer text */
 }
 
-/* Custom scrollbar for dark mode */
-body.dark-mode::-webkit-scrollbar {
+/* Scrollbar for both light and dark modes */
+body::-webkit-scrollbar {
   width: 8px;
 }
 
-body.dark-mode::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #888;
 }
 
-body.dark-mode::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 
 body.dark-mode::-webkit-scrollbar-track {
