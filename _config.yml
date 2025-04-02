@@ -1,3 +1,11 @@
-remote_theme: "mmistakes/minimal-mistakes"
+# General site configuration
+title: "Jack Hamond | Civil Engineer"
+description: "A portfolio showcasing my engineering projects and coding skills."
+url: "https://jackhamondpro.github.io"  # Replace "your-username" with your actual GitHub username
+baseurl: ""
+# logo: "/assets/images/logo.png"  # Change to the path of your logo if you have one
+
+# Theme and Plugins
+remote_theme: "mmistakes/minimal-mistakes"  # Tells Jekyll to use the Minimal Mistakes theme
 plugins:
-  - jekyll-seo-tag
+  - jekyll-seo-tag  # Adds SEO features to your website
