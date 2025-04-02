@@ -26,6 +26,10 @@ Check out some of the projects I've worked on:
 - [Project 2 - Automated Survey Data Analysis](#)
 - [Project 3 - Civil Engineering Website Development](#)
 
+### Check out more:
+- [About Me](/about/) - Learn more about my background, skills, and projects.
+- [Projects](/projects/) - Explore some of the engineering and software development projects I've worked on.
+
 ---
 
 &copy; 2025 Jack Hamond | Civil Engineering Portfolio
