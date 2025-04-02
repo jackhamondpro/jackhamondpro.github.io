@@ -1,15 +1,10 @@
----
----
-
 @import "{{ site.theme }}"; /* Import the base theme's styles */
 
 body {
   overflow-x: hidden; /* Prevent any horizontal scroll shift */
 }
 
-
 /* Dark mode customization */
-
 body.dark-mode {
   background-color: #121212;  /* Dark background */
   color: #e0e0e0;  /* Light text for contrast */
@@ -27,6 +22,30 @@ body.dark-mode a:hover {
 /* Dark mode for headers */
 body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
   color: #ffffff;  /* White headers */
+}
+
+/* Dark mode for bold text */
+body.dark-mode strong, body.dark-mode b {
+  font-weight: bold;  /* Ensure bold text is applied */
+  color: #ffffff;  /* White color for bold text */
+}
+
+/* Dark mode for italic text */
+body.dark-mode em, body.dark-mode i {
+  font-style: italic;  /* Ensure italic text is applied */
+  color: #d3d3d3;  /* Lighter gray color for italics */
+}
+
+/* Dark mode for underlined text */
+body.dark-mode u {
+  text-decoration: underline;  /* Ensure underline text is applied */
+  color: #d3d3d3;  /* Lighter gray color for underlined text */
+}
+
+/* Dark mode for strikethrough text */
+body.dark-mode del {
+  text-decoration: line-through;  /* Ensure strikethrough is applied */
+  color: #d3d3d3;  /* Lighter gray color for strikethrough text */
 }
 
 /* Dark mode navbar */
