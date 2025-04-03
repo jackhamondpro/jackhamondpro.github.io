@@ -1,5 +1,5 @@
 ---
-title: "Professional Qualities, Skills and Tools, and Certifications"
+title: "Skills, Tools and Certifications"
 permalink: /skillset/
 ---
 
