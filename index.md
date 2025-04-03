@@ -18,9 +18,7 @@ At work, school, and in my free time, I have developed many skills and learned t
 
 Check out some of the projects I've worked on:
 
-- [Project 1 - Structural Design Optimization](#)
-- [Project 2 - Automated Survey Data Analysis](#)
-- [Project 3 - Civil Engineering Website Development](#)
+* [A simple bash script that saved me tons of time](#)
 
 ---
 
