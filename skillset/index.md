@@ -12,7 +12,7 @@ permalink: /skillset/
   * **GIS Software**: Some experience with ArcGIS Pro.
   * **Simulation and Analysis Software**: Familiar with MATLAB from academic projects, and have continued to expand my knowledge through self-learning.
   * **Data Management and Database Software**: Proficient in Excel and SQL, with working knowledge of Microsoft Access.
-  * **Programming and Scripting Languages**: Proficient in Python and familiar with many of its libraries.
+  * **Programming and Scripting Languages**: Proficient in Bash and Python.
   * **Version Control and Collaboration Tools**: Proficient in Git/GitHub, regularly using these tools in personal projects.
   * **Communication and Documentation Tools**: Proficient in Microsoft Teams, Bluebeam, and LaTeX.
 1. Communication Skill
@@ -22,3 +22,8 @@ permalink: /skillset/
 
 * OSHA 10
 * Defensive Driving
+
+## Other Skills
+
+* Automation with WSL2 & Linux commands
+* Web Development (HTML, CSS, JavaScript)
