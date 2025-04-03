@@ -33,7 +33,7 @@ git clone https://github.com/jackhamondpro/jackhamondpro.github.io.git
 Contributions are welcome! Feel free to fork this project and submit a pull request for any improvements.
 
 ## License
-This project is licensed under the MIT License – see the LICENSE.md file for details.
+This project is licensed under the MIT License – see the [LICENSE.md](https://raw.githubusercontent.com/jackhamondpro/jackhamondpro.github.io/refs/heads/main/LICENSE.md) file for details.
 
 ## Contact
 
