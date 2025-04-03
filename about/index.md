@@ -14,7 +14,7 @@ During my second semester at the University of Mary, I had a course that tought 
 
 While working as an intern, I realized there were certain repetitive tasks that were taking up tons of time. I knew that the tools I had learned in class could automate these tasks but I did not always know enough of the language/tool to figure things out. I began "working at home"; I would spend some time at home learning more about some of the tools I knew about. Further, I discovered new tools and ways to improve my scripts. I even wrote scripts to automate my scripts. I began to realize that having these skills was greatly beneficial to me in my career.
 
-This all leads to me typing these words in a **markdown** file which uses **jekyll** to convert the markdown to **html**. Jekyll reads all of the files (**YAML**, **SCCS**, and **JavaScript**) in this **repository** which is hosted on **GitHub**. 
+This all leads to me typing these words in a **markdown** file which uses **jekyll** to convert the markdown to **html**. Jekyll reads all of the files (**YAML**, **SCCS**, and **JavaScript**) in this **repository** which is hosted on **GitHub** through GitHub **Pages**. I am typing this in my preferred texted editor called **neovim** which is a fork of **vim** (which is a fork of **vi**).
 
 This website will act as a place for me to showcase some of the ways that I use my computer skills to be more efficient at work as well as a place for me put my skill, qualifications, etc.
 
