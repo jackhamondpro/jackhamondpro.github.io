@@ -3,17 +3,17 @@ title: "Professional Qualities, Skills and Tools, and Certifications"
 permalink: /skillset/
 ---
 
-# Professional Qualities, Skills and Tools, and Certifications
+# Engineering Qualities, Skills and Tools, and Certifications
 
-## Professional Qualities
+## Engineering Qualities
 
-Throughout my time as an Engineering Technician I have developed many professional qualities on the job. These skills include:
+Throughout my time at school and as an Engineering Technician I have developed many important professional engineering qualities on the job. These skills include:
 
 1. Technical Skills:
-  * CAD Software Proficiency: I am proficient in Microstation and ORD (I have experience in ArcGIS)
+  * CAD Software: I am proficient in Microstation and ORD. I have experience using AutoCAD, Civil3D, and ArcGIS.
 1. Mathematics and Analytical Skills:
-  * Strong Math Skills: Knowledge of algebra, geometry, and basic trigonometry for measuring, calculating loads, and analyzing structures
-  * Problem-Solving Abilities: Ability to analyze issues that arise on-site and come up with practical solutions
+  * Strong Math Skills: I have a good understanding of algebra, geometry, calculus, and differential equations.
+  * Problem-Solving Abilities: I have the ability to analyze issues that arise on-site and come up with practical solutions.
 1. Communication Skills:
   * Written Communication: The ability to write clear reports, maintain documentation, and explain technical issues in an understandable way
   * Verbal Communication: Communicating with engineers, contractors, and other team members to ensure smooth collaboration.
