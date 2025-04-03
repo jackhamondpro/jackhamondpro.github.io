@@ -14,7 +14,9 @@ permalink: /skillset/
   * **Data Management and Database Software**: Proficient in Excel and SQL, with working knowledge of Microsoft Access.
   * **Programming and Scripting Languages**: Proficient in Python and familiar with many of its libraries.
   * **Version Control and Collaboration Tools**: Proficient in Git/GitHub, regularly using these tools in personal projects.
-  * **Communication and Documentation Tools**: Proficient in Microsoft Teams and Bluebeam.
+  * **Communication and Documentation Tools**: Proficient in Microsoft Teams, Bluebeam, and LaTeX.
+1. Communication Skill
+  * I have the ability to write clear reports, maintain documentation, and explain technical issues in an understandable way.
 
 ## Certifications
 
