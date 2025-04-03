@@ -3,7 +3,7 @@ title: "Professional Qualities, Skills and Tools, and Certifications"
 permalink: /skillset/
 ---
 
-# Skills & Tools and Certifications
+# Skills, Tools and Certifications
 
 ## Skills and Tools
 
