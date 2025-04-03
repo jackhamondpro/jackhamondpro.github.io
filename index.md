@@ -12,11 +12,7 @@ Hello, I'm Jack Hamond, an Engineering Technician with a strong interest in codi
 
 ## [Skills, Tools, and Certifications](/skillset/)
 
-* CAD Software Proficiency
-* Software Development (Python, Bash, JavaScript)
-* Automation with WSL2 & Linux commands
-* Web Development (HTML, CSS, JavaScript)
-* ...
+At work, school, and in my free time, I have developed many skills and learned to use numerous tools. I have also earned certifications. This page provides a general overview of the skills and tools I use (or could use) on the job, as well as a list of my certifications.
 
 ## [Projects](/projects/)
 
