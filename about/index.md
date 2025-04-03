@@ -6,22 +6,26 @@ permalink: /about/
 
 # About Me
 
-Hello, I'm **Jack Hamond**, a passionate Civil Engineer and tech enthusiast. 
+Hello, I'm **Jack Hamond**, an Engineering Technician in North Dakota. I enjoy spending time with my family, reading a good book, and enjoying cigars with friends. 
 
-I use my expertise in civil engineering combined with programming and automation tools to design smarter, more efficient projects. From leveraging advanced structural design to automating construction processes with WSL2 and Linux, I enjoy pushing the boundaries of what's possible with technology in the built environment.
+I started my education (2022) at the University of Mary in Bismarck, ND pursuing a degree in Civil Engineering. I got an internship that next Summer at [KLJ Engineering](https://kljeng.com/). I got married in December of my second year of college and I got hired full-time that Summer as an Engineering Technician. I am continuing to work for KLJ to this day. Since getting hired full-time, I have decided to finish my civil engineering degree online at UND. My daughter was born in October of 2024 and pusuing my degree online has allowed me to create a flexibile schedule so that I can manage my work, school, and personal life.
+
+During my second semester at the University of Mary, I had a course that tought me some of the basic tools on Linux machines (sed, grep, awk, etc.). I was super impressed when my professor taught us how to get to the terminal&mdash;I felt like a true hacker. I can still remember the first time I typed "sudo apt update && sudo upgrade -y" and watched the local package index update and the upgrades load. Learning vim, the way computers work, and the power of automation of Ever since that semester I have continued to "play with" and use
+
+I use my expertise in civil engineering combined with programming and automation tools to be smarter and more efficient at work. 
+
+automating construction processes with WSL2 and Linux, I enjoy pushing the boundaries of what's possible with technology in the built environment.
 
 This site serves as a portfolio of my work, showcasing a blend of engineering projects and software development skills.
 
 ## Background
 
-I hold a degree in **Civil Engineering** and have extensive experience in:
+I am pursuing a degree in **Civil Engineering** and have experience in:
 
-- **Structural Design** (Designing bridges, buildings, and more)
-- **Geotechnical Engineering** (Soil mechanics and foundation analysis)
 - **Automation with WSL2 & Linux** (Optimizing workflows and processes)
 - **Software Development** (Building tools and automating tasks)
 
-When I’m not engineering, you’ll find me coding, learning new technologies, or exploring new automation techniques to improve the efficiency of construction projects.
+When I’m not engineering, you’ll find me coding, learning new technologies, or exploring new automation techniques.
 
 ## Contact
 
