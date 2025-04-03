@@ -17,7 +17,7 @@ The technical expertise section will list projects that I have worked on, what I
 
 ## Advanced Solutions
 
-### What is a KMZ?
+### [What is a KMZ?](/advanced-solutions/what-is-a-kzm/)
 
 Google Earth is an extremely powerful tool that I use on a weekly basis at work. Having an a good understanding of the file type that Google Earth uses can be extremely helpful in unlocking its potenial. In this demonstration I will share how I used my knowledge from web design to customize kmz's.
 
