@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2025-04-04
+date: 2025-04-03 18:00:00
 excerpt: "Hello, I'm **Jack Hamond**, an Engineering Technician in North Dakota. I enjoy spending time with my family, reading a good book, and enjoying cigars with friends."
 layout: default
 permalink: /about/
