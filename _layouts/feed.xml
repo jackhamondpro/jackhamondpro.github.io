@@ -15,7 +15,7 @@ layout: none
     <item>
       <title>{{ about_page.title }}</title>
       <link>{{ site.url }}/about/</link>
-      <description>{{ about_page.content | strip_html | escape }}</description>
+      <description>{{ about_page.content | markdownify| strip_html | escape }}</description>
       <pubDate>{{ about_page.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}/about/</guid>
     </item>
