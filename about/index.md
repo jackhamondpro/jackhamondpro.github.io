@@ -1,6 +1,7 @@
 ---
-layout: default
 title: "About Me"
+excerpt: "Hello, I'm **Jack Hamond**, an Engineering Technician in North Dakota. I enjoy spending time with my family, reading a good book, and enjoying cigars with friends."
+layout: default
 permalink: /about/
 ---
 
