@@ -31,6 +31,7 @@ collections:
     output: true  # Set to true if you want individual project pages to be generated
   about:
     output: true
+    directory: about
   skillset:
     output: true
       
