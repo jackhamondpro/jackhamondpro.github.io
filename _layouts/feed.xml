@@ -20,6 +20,16 @@ layout: none
         <guid>{{ site.url }}{{ project.url }}</guid>
       </item>
     {% endfor %}
+    
+    {% for project in site.about %}
+      <item>
+        <title>{{ project.title }}</title>
+        <link>{{ site.url }}{{ project.url }}</link>
+        <description>{{ project.excerpt | strip_html | escape }}</description>
+        <pubDate>{{ project.date | date_to_xmlschema }}</pubDate>
+        <guid>{{ site.url }}{{ project.url }}</guid>
+      </item>
+    {% endfor %}
 
     
   </channel>
