@@ -30,7 +30,16 @@ layout: none
         <guid>{{ site.url }}{{ page.url }}</guid>
       </item>
     {% endfor %}
-
+    
+    {% for page in site.collections.skillset.docs %}
+      <item>
+        <title>{{ page.title }}</title>
+        <link>{{ site.url }}{{ page.url }}</link>
+        <description>{{ page.excerpt | strip_html | escape }}</description>
+        <pubDate>{{ page.date | date_to_xmlschema }}</pubDate>
+        <guid>{{ site.url }}{{ page.url }}</guid>
+      </item>
+    {% endfor %}
     
   </channel>
 </rss>
