@@ -109,20 +109,20 @@ body.dark-mode::-webkit-scrollbar-track {
     background-color: #005bb5;  /* Darker blue when hovered */
 }
 
-.rss-icon {
+.icon {
   width: 21.3px;      /* Adjust this size as needed */
   height: auto;     /* Maintains aspect ratio */
 }
 
 /* Make it responsive: Adjust for larger or smaller screens */
 @media (max-width: 600px) {
-  .rss-icon {
+  .icon {
     width: 16px;    /* Smaller size for mobile */
   }
 }
 
 @media (min-width: 1200px) {
-  .rss-icon {
+  .icon {
     width: 32px;    /* Larger size for desktop */
   }
 }
