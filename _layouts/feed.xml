@@ -27,6 +27,14 @@ layout: none
       <pubDate>{{ skillset_page.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}/skillset/</guid>
     </item>
+    {% assign what-is-a-kzm_page = site.pages | where: "path", "projects/advanced-solutions/what-is-a-kzm/index.md" | first %}
+    <item>
+      <title>{{ what-is-a-kzm_page.title }}</title>
+      <link>{{ site.url }}/projects/advanced-solutions/what-is-a-kzm/</link>
+      <description>{{ what-is-a-kzm_page.content | markdownify | escape }}</description>
+      <pubDate>{{ what-is-a-kzm_page.date | date_to_xmlschema }}</pubDate>
+      <guid>{{ site.url }}/projects/advanced-solutions/what-is-a-kzm/</guid>
+    </item>
     
   </channel>
 </rss>
