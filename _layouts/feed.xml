@@ -21,13 +21,13 @@ layout: none
       </item>
     {% endfor %}
     
-    {% for project in site.about %}
+    {% for page in site.collections.about.docs %}
       <item>
-        <title>{{ project.title }}</title>
-        <link>{{ site.url }}{{ project.url }}</link>
-        <description>{{ project.excerpt | strip_html | escape }}</description>
-        <pubDate>{{ project.date | date_to_xmlschema }}</pubDate>
-        <guid>{{ site.url }}{{ project.url }}</guid>
+        <title>{{ page.title }}</title>
+        <link>{{ site.url }}{{ page.url }}</link>
+        <description>{{ page.excerpt | strip_html | escape }}</description>
+        <pubDate>{{ page.date | date_to_xmlschema }}</pubDate>
+        <guid>{{ site.url }}{{ page.url }}</guid>
       </item>
     {% endfor %}
 
