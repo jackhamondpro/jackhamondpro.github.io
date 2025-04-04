@@ -1,5 +1,9 @@
 ---
 title: "What is a KMZ?"
+date: 2025-04-05 18:00:00
+excerpt: "Google Earth is an extremely powerful tool that I use on a weekly basis at work. Having an a good understanding of the file type that Google Earth uses can be extremely helpful in unlocking its potenial. In this demonstration I will share how I used my knowledge from web design to customize kmz’s."
+layout: default
+permalink: /about/
 ---
 
 # What is a KMZ?
