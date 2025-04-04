@@ -21,11 +21,12 @@ layout: none
       </item>
     {% endfor %}
     
+    {% assign about_page = site.pages | where: "path", "about/index.md" | first %}
     <item>
-      <title>About Me</title>
+      <title>{{ about_page.title }}</title>
       <link>{{ site.url }}/about/</link>
-      <description>{{ site.pages | where: "path", "about/index.md" | first.excerpt | strip_html | escape }}</description>
-      <pubDate>{{ site.pages | where: "path", "about/index.md" | first.date | date_to_xmlschema }}</pubDate>
+      <description>{{ about_page.excerpt | strip_html | escape }}</description>
+      <pubDate>{{ about_page.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}/about/</guid>
     </item>
     
