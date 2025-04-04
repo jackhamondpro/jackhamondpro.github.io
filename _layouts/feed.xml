@@ -19,6 +19,14 @@ layout: none
       <pubDate>{{ about_page.date | date_to_xmlschema }}</pubDate>
       <guid>{{ site.url }}/about/</guid>
     </item>
+    {% assign skillset_page = site.pages | where: "path", "skillset/index.md" | first %}
+    <item>
+      <title>{{ skillset_page.title }}</title>
+      <link>{{ site.url }}/skillset/</link>
+      <description>{{ skillset_page.content | markdownify | escape }}</description>
+      <pubDate>{{ skillset_page.date | date_to_xmlschema }}</pubDate>
+      <guid>{{ site.url }}/skillset/</guid>
+    </item>
     
   </channel>
 </rss>
