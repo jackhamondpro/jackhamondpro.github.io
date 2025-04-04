@@ -21,9 +21,6 @@
         <a href="/about/">About</a>
         <a href="/skillset/">Skills</a>
         <a href="/projects/">Projects</a>
-        <a href="{{ site.url }}/feed.xml" title="RSS Feed">
-          <img src="{{ site.url }}/assets/images/rss.svg" alt="RSS Feed" class="rss-icon" />
-        </a>
       </nav>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
@@ -49,6 +46,9 @@
         </ul>
         {% endif %}
         <button id="theme-toggle">Toggle Theme</button>
+        <a href="{{ site.url }}/feed.xml" title="RSS Feed">
+          <img src="{{ site.url }}/assets/images/rss.svg" alt="RSS Feed" class="rss-icon" />
+        </a>
       </header>
       <section>
 
