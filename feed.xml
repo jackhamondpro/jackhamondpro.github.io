@@ -1,3 +1,4 @@
-{% raw %}
-{% include feed.xml %}
-{% endraw %}
+---
+layout: feed
+permalink: /feed.xml
+---
