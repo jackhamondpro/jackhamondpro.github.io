@@ -1,5 +1,8 @@
 ---
 title: "Skills, Tools and Certifications"
+date: 2025-04-03 18:30:00
+excerpt: "At work, school, and in my free time, I have developed many skills and learned to use numerous tools. I have also earned certifications. This page provides a general overview of the skills and tools I use (or could use) on the job, as well as a list of my certifications."
+layout: default
 permalink: /skillset/
 ---
 
