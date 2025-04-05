@@ -57,6 +57,12 @@
             <img src="{{ site.url }}/assets/images/mailbox.svg" alt="Contact" class="icon" />
           </a>
         </div>
+        <div class="social-links">
+          {% if site.github.is_user_page %}
+          <a href="{{ site.github.owner_url }}" title="GitHub Profile">
+            <img src="{{ site.url }}/assets/images/github.svg" alt="GitHub Profile" class="icon" />
+          </a>
+          {% endif %}
       </header>
       <section>
 
