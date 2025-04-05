@@ -10,4 +10,4 @@ permalink: /projects/advanced-solutions/what-is-a-kzm/
 
 ## Introduction
 
-Google Earth, ArcGIS, QGIS, Google Maps, Worldwind, Bing Maps, and other geospatial softwares use KMZ files. What exactly is a KMZ? A KMZ is simply a compressed version of KML file. It is essentially a ZIP archive that contains a KML file and other associtated resources (images, icons, etc.). This is extremely useful to know becuase KML is an XML format. I will explain what all of this means later.
+Google Earth, ArcGIS, QGIS, Google Maps, Worldwind, Bing Maps, and other geospatial softwares use KMZ files. What exactly is a KMZ? A KMZ is simply a compressed version of KML file. It is essentially a ZIP archive that contains a KML file and other associtated resources (images, icons, etc.). This is extremely useful to know because KML is in XML format. I will explain what all of this means later.
