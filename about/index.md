@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2025-04-03 18:00:00
-excerpt: "Hello, I'm **Jack Hamond**, an Engineering Technician in North Dakota. I enjoy spending time with my family, reading a good book, and enjoying cigars with friends."
+excerpt: "Hello, I'm Jack Hamond, an Engineering Technician with a strong interest in coding and technology. I enjoy using my computer skills to be more efficient in my project work. This website highlights some of the ways that I use technology at work as well as showcases the skills and tools that I use on the job."
 layout: default
 permalink: /about/
 ---
