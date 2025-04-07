@@ -11,3 +11,11 @@ title: "My Resume & CV"
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('scroll', function() {
+    const scrollPosition = window.scrollY;
+    const background = document.querySelector('.hero');
+    background.style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';
+});
+</script>
