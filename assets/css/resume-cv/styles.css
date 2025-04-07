@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/assets/cool-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-resume, .btn-cv {
+  padding: 20px 40px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #ff5733;  /* Custom color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-resume:hover, .btn-cv:hover {
+  transform: scale(1.1);
+  background-color: #ff4200;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
