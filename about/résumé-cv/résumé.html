@@ -1,41 +1,60 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume Viewer</title>
+</head>
+<body>
+    <div id="pdf-viewer">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
 
-<div id="pdf-viewer">
-    <canvas id="pdf-canvas"></canvas>
-</div>
+    <!-- Include the PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
 
-<script>
-  // Wait until the PDF.js library is fully loaded
-  if (typeof pdfjsLib !== 'undefined') {
-    const url = '/assets/media/pdf/résumé.pdf';
-    const canvas = document.getElementById('pdf-canvas');
-    const context = canvas.getContext('2d');
-  
-    pdfjsLib.getDocument(url).promise.then(function(pdf) {
-      console.log('PDF loaded');
-      
-      pdf.getPage(1).then(function(page) {
-        console.log('Page loaded');
-        
-        const viewport = page.getViewport({ scale: 1 });
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-  
-        page.render({
-          canvasContext: context,
-          viewport: viewport
-        }).promise.then(function() {
-          console.log('Page rendered');
-        }).catch(function(error) {
-          console.log('Render error:', error);
-        });
-      }).catch(function(error) {
-        console.log('Error loading page:', error);
-      });
-    }).catch(function(error) {
-      console.log('Error loading PDF:', error);
-    });
-  } else {
-    console.log("PDF.js library is not loaded.");
-  }
-</script>
+    <script>
+        // Set the worker source for PDF.js to avoid deprecated warning
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
+
+        // Wait until the PDF.js library is fully loaded
+        if (typeof pdfjsLib !== 'undefined') {
+            const url = '/assets/media/pdf/résumé.pdf';  // Adjust the PDF file path accordingly
+            const canvas = document.getElementById('pdf-canvas');
+            const context = canvas.getContext('2d');
+
+            // Load the PDF document
+            pdfjsLib.getDocument(url).promise.then(function(pdf) {
+                console.log('PDF loaded');
+
+                // Get the first page of the PDF
+                pdf.getPage(1).then(function(page) {
+                    console.log('Page loaded');
+
+                    // Get viewport to match page size
+                    const viewport = page.getViewport({ scale: 1 });
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    // Render the page into the canvas
+                    page.render({
+                        canvasContext: context,
+                        viewport: viewport
+                    }).promise.then(function() {
+                        console.log('Page rendered');
+                    }).catch(function(error) {
+                        console.log('Render error:', error);
+                    });
+                }).catch(function(error) {
+                    console.log('Error loading page:', error);
+                });
+            }).catch(function(error) {
+                console.log('Error loading PDF:', error);
+            });
+        } else {
+            console.log("PDF.js library is not loaded.");
+        }
+    </script>
+</body>
+</html>
