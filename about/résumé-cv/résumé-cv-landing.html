@@ -13,7 +13,7 @@
             padding: 0;
             font-family: Arial, sans-serif;
             height: 100%;
-            overflow-x: hidden;
+            overflow: hidden; /* Prevent scrolling */
         }
 
         /* Full viewport height and centered content */
@@ -22,17 +22,15 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden; /* Prevent any overflow during scroll */
         }
 
-        /* Hero section with background and parallax effect */
+        /* Hero section with background (no parallax effect) */
         .hero {
             position: relative;
             width: 100%;
             height: 100%;
             background: url('/assets/media/images/road.jpg') no-repeat center center fixed;
             background-size: cover;
-            transition: transform 0.2s ease-out;
         }
 
         /* Center the buttons inside the .hero section */
@@ -62,12 +60,6 @@
             transform: scale(1.1);
             background-color: rgba(255, 87, 51, 1);
         }
-
-        /* Smooth transition for parallax background */
-        .hero {
-            transition: transform 0.2s ease-out;
-        }
-
     </style>
 </head>
 <body>
@@ -80,15 +72,6 @@
             </div>
         </div>
     </div>
-
-    <!-- JavaScript for Parallax Effect -->
-    <script>
-        document.addEventListener('scroll', function() {
-            const scrollPosition = window.scrollY;  // Get current scroll position
-            const background = document.querySelector('.hero');  // Get the background element
-            background.style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';  // Parallax effect
-        });
-    </script>
 
 </body>
 </html>
