@@ -1,21 +1,94 @@
----
-layout: default
-title: "My Resume & CV"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Resume & CV</title>
 
-<div class="container">
-    <div class="hero">
-        <div class="buttons">
-            <a href="/resume.html" class="btn-resume">Resume</a>
-            <a href="/cv.html" class="btn-cv">CV</a>
+    <style>
+        /* Global Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        /* Full viewport height and centered content */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Prevent any overflow during scroll */
+        }
+
+        /* Hero section with background and parallax effect */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url('https://via.placeholder.com/1600x900') no-repeat center center fixed;
+            background-size: cover;
+            transition: transform 0.2s ease-out;
+        }
+
+        /* Center the buttons inside the .hero section */
+        .buttons {
+            display: flex;
+            gap: 20px;
+            z-index: 10;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn-resume, .btn-cv {
+            padding: 20px 40px;
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            background-color: rgba(255, 87, 51, 0.7);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .btn-resume:hover, .btn-cv:hover {
+            transform: scale(1.1);
+            background-color: rgba(255, 87, 51, 1);
+        }
+
+        /* Smooth transition for parallax background */
+        .hero {
+            transition: transform 0.2s ease-out;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="hero">
+            <div class="buttons">
+                <a href="/resume.html" class="btn-resume">Resume</a>
+                <a href="/cv.html" class="btn-cv">CV</a>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-document.addEventListener('scroll', function() {
-    const scrollPosition = window.scrollY;
-    const background = document.querySelector('.hero');
-    background.style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';
-});
-</script>
+    <!-- JavaScript for Parallax Effect -->
+    <script>
+        document.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;  // Get current scroll position
+            const background = document.querySelector('.hero');  // Get the background element
+            background.style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';  // Parallax effect
+        });
+    </script>
+
+</body>
+</html>
