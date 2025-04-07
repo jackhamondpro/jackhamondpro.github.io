@@ -47,19 +47,12 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 0 10px;
         }
     </style>
 </head>
 <body>
     <div id="pdf-viewer">
         <canvas id="pdf-canvas"></canvas>
-    </div>
-
-    <!-- Navigation Buttons -->
-    <div class="button-container">
-        <button class="nav-button" id="prev-page">Previous</button>
-        <button class="nav-button" id="next-page">Next</button>
     </div>
 
     <!-- Download Button -->
@@ -80,20 +73,19 @@
 
         const url = '/assets/media/pdf/résumé.pdf';  // Adjust the PDF file path accordingly
         let pdfDoc = null;
-        let currentPage = 1;
 
         // Load the PDF document
         pdfjsLib.getDocument(url).promise.then(function(pdf) {
             pdfDoc = pdf;
             console.log('PDF loaded');
-            renderPage(currentPage);
+            renderPage();
         }).catch(function(error) {
             console.log('Error loading PDF:', error);
         });
 
         // Render the page
-        function renderPage(pageNum) {
-            pdfDoc.getPage(pageNum).then(function(page) {
+        function renderPage() {
+            pdfDoc.getPage(1).then(function(page) {
                 console.log('Page loaded');
 
                 const canvas = document.getElementById('pdf-canvas');
@@ -117,22 +109,6 @@
                 console.log('Error loading page:', error);
             });
         }
-
-        // Navigate to the next page
-        document.getElementById('next-page').addEventListener('click', function() {
-            if (pdfDoc && currentPage < pdfDoc.numPages) {
-                currentPage++;
-                renderPage(currentPage);
-            }
-        });
-
-        // Navigate to the previous page
-        document.getElementById('prev-page').addEventListener('click', function() {
-            if (pdfDoc && currentPage > 1) {
-                currentPage--;
-                renderPage(currentPage);
-            }
-        });
     </script>
 </body>
 </html>
